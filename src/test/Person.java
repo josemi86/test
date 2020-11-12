@@ -29,4 +29,10 @@ public class Person {
         this.knownPeople = knownPeople;
     }
 
+    @Override
+    public String toString() {
+        return name;
+    }
+
+    
 }
