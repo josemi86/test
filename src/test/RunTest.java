@@ -36,7 +36,7 @@ public class RunTest {
         Person celebrity = new Person("Brian", new ArrayList<Person>());
         Person person1 = new Person("John", Arrays.asList(celebrity));
         Person person2 = new Person("Jack", Arrays.asList(celebrity, person1));
-        Person person3 = new Person("James", Arrays.asList(person1, person2));
+        Person person3 = new Person("James", Arrays.asList(celebrity,person1, person2));
         people.add(person1);
         people.add(person2);
         people.add(person3);
